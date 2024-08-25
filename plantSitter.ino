@@ -43,7 +43,7 @@ void setup() {
   display.print("Hello, I'm ");
   display.println(plantName);
   display.display(); 
-  delay(1000);
+  delay(2000);
 
 }
 
@@ -60,7 +60,7 @@ void loop() {
 		Serial.println(status);
 
 	} else if (moisture >= soilWet && moisture < soilDry) {
-    status = "I'm still doing well"; 
+    status = "I'm good"; 
 		Serial.println(status);
 	} else {
 		status = "I'm thursty"; 
