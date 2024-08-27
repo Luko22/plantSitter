@@ -68,11 +68,6 @@ void setup() {
   configTime(3600, 3600, ntpServer);
   delay(2000); // Wait for time to be synced
 
-  // Initialize lastWatered to two years ago
-  // time_t now;
-  // time(&now);
-  // lastWatered = now - (2 * 365 * 24 * 60 * 60); // Subtract 2 years in seconds
-  // delay(1000);
 
   // Wait for time to be set
     int timeoutCounter = 0;
