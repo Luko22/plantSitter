@@ -13,12 +13,13 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 // Soil moisture levels
-#define soilWet 2000
-#define soilDry 3500
+#define soilWet 1000
+#define soilDry 2800
 
 // Pin definitions
-#define sensorPower 33
-#define sensorPin 36
+#define sensorPin 32
+#define sensorPower 27
+
 
 #define plantName "Basilson"
 
