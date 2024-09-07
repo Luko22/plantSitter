@@ -12,6 +12,8 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
+#define plantName "Basilson"
+
 // Soil moisture levels
 #define soilWet 1000
 #define soilDry 2800
@@ -21,7 +23,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define sensorPower 27
 
 
-#define plantName "Basilson"
+
 
 // Wi-Fi credentials
 const char* ssid = mySSIDLap;
