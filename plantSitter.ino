@@ -22,9 +22,6 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define sensorPin 32
 #define sensorPower 27
 
-
-
-
 // Wi-Fi credentials
 const char* ssid = mySSIDLap;
 const char* password = myPASSWORDLap;
