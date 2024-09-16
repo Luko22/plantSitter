@@ -7,9 +7,13 @@ With all honesty, I have been a terrible plant dad in the past. I used to have a
 
 
 
-# Demo
+## Demo
 
 https://github.com/user-attachments/assets/a82f86d7-b56c-412f-b6f3-9a42d37cdb46
 
 
 
+## Shortcomings
+- the readings can be tampered with by poor wire connections
+- different plants absorb water differently so one button might not be effective for all three
+- My current WiFi works like a Public hotspot and resets every day. Readings would stop with wifi connection is lost.
